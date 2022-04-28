@@ -1,0 +1,137 @@
+*{
+    font-family:Arial;
+}
+body {
+	margin:0;
+	padding:0;
+}
+
+.barra_nav{
+    height:50px;
+    background-color:black;
+}
+.nav{
+    width:1000px;
+    margin: auto;
+    color: #ffffff;
+}
+.logo{
+    float: left;
+    font-size:24px;
+    line-height: 50px;
+    cursor: pointer;
+    
+}
+.logo:hover{
+    opacity: 50%;
+}
+.menu{
+    float: right;
+}
+.menu ul,
+.menu li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-transform: uppercase;
+}
+.menu li {
+	float:left;
+	padding-left:10px;
+	padding-right:10px;
+	line-height: 50px;
+	font-size:14px;
+	cursor:pointer;
+}
+.menu li:hover {
+	background-color:white;
+    color: black;
+}
+.banner{
+    height:300px;
+    background-color:gray;
+}
+.banner_interior{
+    width:1000px;
+    margin: auto;
+}
+.banner_texto{
+ float:left;
+}
+.banner_img{
+    float:right;
+    max-height: 100%
+} 
+.banner_img img{
+    margin-right: 55px;
+    max-height: 100%
+}
+.frase1{
+    font-size:48px;
+    color:#ffff;
+    margin-top: 60px;
+}
+.frase2{
+    font: size 20px;
+    width: 500px;
+    color:#ffff;
+}
+.botao{
+    background-color:black;
+    height: 86px;
+    width:282px;
+    margin-top: 10px;
+    color:#ffff;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    line-height: 86px /*Para centralizar no meio */
+    
+}
+.botao:hover{
+    color:black;
+    background-color:white;
+}
+.produtosinterno{
+    width:1000px;
+    margin: auto;
+}
+.outrosprodutos{
+	height:90px;
+	font-size:20px;
+	text-align:center;
+	line-height:90px;
+}
+
+.produtosimg img{
+ margin-left: 10px;
+ margin-right: 10px;
+}
+.produtosimg img:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+.rodape{
+    height: 80px;
+    background-color:black;
+    color:#ffff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 80px;
+}
+.rodape p:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+.conteudointerno {
+	width:1000px;
+	margin:auto;
+}
+.protudos_texto {
+	height:90px;
+	font-size:20px;
+	text-align:center;
+	line-height:90px;
+}
+
